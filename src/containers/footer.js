@@ -26,7 +26,13 @@ export function FooterContainer() {
             <Footer.Link href="#">Port Harcourt</Footer.Link>
             <Footer.Link href="#">Kano</Footer.Link>
           </Footer.Column>
-          
+          <Footer.Column>
+            <Footer.Title>Contact Us</Footer.Title>
+            <Footer.Link href="#">Lagos</Footer.Link>
+            <Footer.Link href="#">Abuja</Footer.Link>
+            <Footer.Link href="#">Port Harcourt</Footer.Link>
+            <Footer.Link href="#">Kano</Footer.Link>
+          </Footer.Column>
         </Footer.Row>
       </Footer.Wrapper>
     </Footer>
