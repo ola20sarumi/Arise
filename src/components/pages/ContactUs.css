@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-  margin: 0;
+  margin-right: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(143, 179, 84);
+  background-image: url("../../images/img-8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body,
@@ -21,7 +23,9 @@ button {
   height: 70vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  color: #fff;
+  margin-right: 1000px;
+  margin-left: 50px;
 }
 
 .form > h1 {

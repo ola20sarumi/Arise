@@ -1,10 +1,10 @@
 import React from "react";
 import "../../App.css";
 
-export default function Design() {
+export default function Charter() {
   return (
     <>
-      <h1 className="design">DESIGN</h1>
+      <h1 className="charter">CHARTER</h1>
     </>
   );
 }

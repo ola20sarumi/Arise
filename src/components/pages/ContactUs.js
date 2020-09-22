@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import "../../App.css";
+import "./ContactUs.css";
+import images from "../../images/img-8.jpg";
 
-export default function ContactUs() {
+function ContactUs() {
   return (
     <form className="form">
-      <h1>CONTACT US</h1>
+      <h1> CONTACT US</h1>
 
       <label>Name</label>
       <input placeholder="Name" />
@@ -19,3 +20,4 @@ export default function ContactUs() {
     </form>
   );
 }
+export default ContactUs;
